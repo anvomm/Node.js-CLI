@@ -75,8 +75,8 @@ module.exports = {
     addContact
   };
 
-/* listContacts();
+/*  listContacts();
   getContactById(3);
-addContact('Anastassia Vomm', 'anvomm@gmail.com', 234567)
+addContact('Anastassia Vomm', 'anvomm@gmail.com', '234567') 
 
-removeContact("07d10547-3fd4-42c2-8b3d-0aee2e7f8a0e"); */
+ removeContact("26a22b2d-79fa-4637-860d-4278dbdb3692");*/
