@@ -46,7 +46,7 @@ async function removeContact(contactId) {
 
     const contactsAfterRemove = await fs.readFile(contactsPath, "utf8");
 
-    return console.table(contactsAfterRemove);
+    return console.table(JSON.parse(contactsAfterRemove));
   } catch (error) {
     return console.error(error);
   }
