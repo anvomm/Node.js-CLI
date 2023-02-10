@@ -1,0 +1,28 @@
+{
+  "name": "node.js-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvomm/Node.js-CLI.git"
+  },
+  "author": "Anastassia Vomm <anastassia.vomm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvomm/Node.js-CLI/issues"
+  },
+  "homepage": "https://github.com/anvomm/Node.js-CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}
